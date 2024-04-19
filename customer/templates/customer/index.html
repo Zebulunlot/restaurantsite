@@ -1,0 +1,77 @@
+{% extends 'customer/base.html' %}
+{% load static %}
+{% block content %}
+<div>
+
+
+    <style>
+        body {
+            background-image: url('/static/customer/images/Savour_foods.jpg');
+            background-repeat: no-repeat;
+            color: white;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+
+
+    <div class="container mb-5">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-8 col-sm-12 offset-md-1 p-4 text-center">
+                <div class="row justify-content-center mt-5">
+                    <h1 style="font-size: 60px"><b>Savour Foods</b></h1>
+                    <center><img src="{% static 'customer/images/Savour_logo-png.png' %}" alt="what image shows" height="150"
+                            width="150">
+                    </center>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-8 col-sm-12 offset-md-1 p-4 text-center">
+
+                <h2>About Us!</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-1">
+            <div class="col-md-10 col-sm-12 offset-md-1 p-4 text-center">
+                <p>
+                <h5>Established since 1995, Savour Foods has been harmonizing the richness 
+                    of authentic Indian and local cuisine, creating a culinary journey that 
+                    delights and satisfies our cherished customers.Our menu, crafted with passion, 
+                    showcases a blend of traditional favorites and innovative delights. Join us in 
+                    our inviting ambiance for a culinary experience that goes beyond the ordinary. 
+                    At Savour Foods, we savor moments, one bite at a time.</h5>
+                </p>
+                <div>
+                    <p>
+                    <h5>Great place for families and friends get together!!</h5>
+                    </p>
+                </div>
+                <div>
+                    <div>
+                        <p>
+
+                        <h5>Make a reservation to avoid any delays, specially on the weekends</h5>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                        <h4>Location: 2189 A Fort Rd, Shahi Mohallah Walled City of Lahore, Lahore, Punjab,
+                            Pakistan</h4>
+                        </p>
+                    </div>
+                    <div class="row justify-content-center mt-5">
+
+                        <center><img src="{% static 'customer/images/location.jpg' %}" alt="what image shows"
+                                height="400" width="400">
+                        </center>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endblock content %}
